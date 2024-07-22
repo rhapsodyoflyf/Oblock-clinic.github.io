@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+nav {
+	background-color: #336699;
+	color: #ffffff;
+	padding: 1em;
+    text-align: right;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline;
+	margin-right: 1em;
+}
+
+nav a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+h1, h2, h3 {
+    color: #007bff;
+}
+
+#intro {
+    background-color: #e9ecef;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#team {
+    padding: 20px;
+}
+
+#team article {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+    section {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul {
+        flex-direction: column;
+    }
+    nav li {
+        margin-right: 0;
+    }
+    section {
+        padding: 10px;
+    }
+}

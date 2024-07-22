@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="clinic-icon" href="Images/dental logo1.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment</title>
+    <link rel="stylesheet" type="text/css" href="appointment.css">
+</head>
+<body>
+    <header>
+        <h1>Book an Appointment</h1>
+    </header>
+    <nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="services.html">Services</a></li>
+			<li><a href="contact.html">Contact</a></li>
+            <li><a href="doctors.html">Our Team</a></li>
+		</ul>
+	</nav>
+    <section id="appointment">
+        <h2>Book Your Appointment Today!</h2>
+        <p>Please fill out the form below to schedule an appointment with one of our dentists.</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone"><br><br>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date"><br><br>
+            <label for="time">Time:</label>
+            <select id="time" name="time">
+                <option value="9:00 AM">9:00 AM</option>
+                <option value="10:00 AM">10:00 AM</option>
+                <option value="11:00 AM">11:00 AM</option>
+                <option value="12:00 PM">12:00 PM</option>
+                <option value="1:00 PM">1:00 PM</option>
+                <option value="2:00 PM">2:00 PM</option>
+                <option value="3:00 PM">3:00 PM</option>
+                <option value="4:00 PM">4:00 PM</option>
+            </select><br><br>
+            <label for="doctor">Doctor:</label>
+            <select id="doctor" name="doctor">
+                <option value="Dr. Emmanuel Jaymes">Dr. Emmanuel Jaymes</option>
+                <option value="Dr. Jane Smith">Dr. Jane Smith</option>
+                <option value="Dr. Bob Johnson">Dr. Bob Johnson</option>
+            </select><br><br>
+            <input type="submit" value="Book Appointment">
+        </form>
+    </section>
+    <footer>
+        <p>Copyright © 2024 O'Block Dental Clinic</p>
+    </footer>
+</body>
+</html>
